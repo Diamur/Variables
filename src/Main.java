@@ -18,7 +18,7 @@ public class Main {
 
         Sportsman sportsmen = new Sportsman("Ива","Иванов",35,null);
         sportsmen.setTypeSport("Тенис");
-
+        sportsmen.getTypeSport();
     }
 
 }
