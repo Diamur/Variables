@@ -1,4 +1,5 @@
 import devcat.Cat;
+import devcat.Sportsman;
 import devpeaple.Peaple;
 
 public class Main {
@@ -14,6 +15,10 @@ public class Main {
         System.out.println(peaple);
         cat.say();
         peaple.getCat().say();
+
+        Sportsman sportsmen = new Sportsman("Ива","Иванов",35,null);
+        sportsmen.setTypeSport("Тенис");
+
     }
 
 }
