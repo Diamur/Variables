@@ -18,4 +18,9 @@ public class Sportsman extends Peaple {
     public void setTypeSport(String typeSport) {
         this.typeSport = typeSport;
     }
+
+    @Override
+    public void sayHello() {
+        System.out.println("Приветик");
+    }
 }

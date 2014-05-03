@@ -47,7 +47,9 @@ public class Peaple {
         this.cat = cat;
     }
 
-
+    public void sayHello(){
+        System.out.println("Hello");
+    }
 
     @Override
     public String toString() {
